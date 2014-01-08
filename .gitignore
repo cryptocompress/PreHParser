@@ -1,0 +1,11 @@
+.settings
+.buildpath
+.project
+www/web.config
+build/*
+tmp/*
+
+composer.lock
+composer.phar
+
+vendor/*
