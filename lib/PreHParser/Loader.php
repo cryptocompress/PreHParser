@@ -27,7 +27,6 @@ class Loader {
 
 	public function loadClass($class) {
 		if ($file = $this->loader->findFile($class)) {
-			$fileTmp = $file . '.PreHParse';
 			eval($this->tokenize($file));
 			return true;
 		}
