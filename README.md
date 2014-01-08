@@ -14,3 +14,6 @@ Now your can [omit _implements_ on class definition](https://twitter.com/mathias
 and write [typehints _after_ the variable](https://twitter.com/mathiasverraes/status/420493583389425664).
 See [LoaderTest.php](https://github.com/cryptocompress/PreHParser/blob/master/test/LoaderTest.php)
 and [PupilId.php](https://github.com/cryptocompress/PreHParser/blob/master/lib/Foo/PupilId.php).
+
+####
+it's real and working: [TravisCI](https://travis-ci.org/cryptocompress/PreHParser)
