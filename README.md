@@ -4,13 +4,14 @@ PreHParser
 pre parser for php
 
 ## use
-### install
+### install:
     composer require cryptocompress/prehparser
-### and add this line right after ``require_once 'vendor/autoload.php';`` 
+### and add this line right after composer:
+    require_once 'vendor/autoload.php';
     \PreHParser\Loader::register();
 
-#### now your can [omit "implements" on class definition](https://github.com/cryptocompress/PreHParser/blob/master/lib/Foo/PupilId.php)
-#### and write [typehints _after_ the variable](https://github.com/cryptocompress/PreHParser/blob/master/lib/Foo/PupilId.php)
+now your can [omit "implements" on class definition](https://github.com/cryptocompress/PreHParser/blob/master/lib/Foo/PupilId.php)
+and write [typehints _after_ the variable](https://github.com/cryptocompress/PreHParser/blob/master/lib/Foo/PupilId.php)
 
 ## more
     [LoaderTest.php](cat vendor/cryptocompress/prehparser/test/LoaderTest.php)
