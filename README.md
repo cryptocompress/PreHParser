@@ -4,9 +4,9 @@ PreHParser
 pre parser for php
 
 ## use
-### install:
-    composer require cryptocompress/prehparser
-### and add this line right after composer:
+### install
+    composer require cryptocompress/prehparser:dev-master
+### and add this line right after composer
     require_once 'vendor/autoload.php';
     \PreHParser\Loader::register();
 
